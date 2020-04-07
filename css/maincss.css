@@ -1,0 +1,38 @@
+body{
+    height: 100%;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://www.houseofcode.io/wp-content/themes/hoc/library/img/geil.png);
+    position: relative; 
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.logo {
+    width: 97px;
+    height: 54px;
+    top: 30px;
+    left: 20px;
+}
+a{
+    padding: 15px;
+    border: 3px solid #a6bb75;
+    color: #a6bb75;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#startknap{
+    display: flex;
+    justify-content: center;        
+}
+
+/* 700px eller under*/
+@media only screen and (max-width: 700px){
+    body{
+        background-color: crimson;
+}
+}
