@@ -59,12 +59,11 @@ h1{
     }
 }
  #canvas_container{
-      width: 100%;
-      height: inherit;
-      margin:0;
+      width: 90%;
+      margin-left:500px;
       position: absolute;
     }
     #my_canvas{
-     display: block;
+     display: flex;
      float: right;
     }
