@@ -27,3 +27,6 @@ var background = new Background();
     }
     var animateInterval = setInterval(animate, 30);
 }
+window.addEventListener('load', function(event) {
+    initCanvas();
+});
