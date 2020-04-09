@@ -1,5 +1,5 @@
 var bg = new Image();
-bg.src = "baggrund.png";
+bg.src = "img/baggrund.png";
 function initCanvas(){
     var ctx = document.getElementById('my_canvas').getContext('2d');
     var cW = ctx.canvas.width, cH = ctx.canvas.height;
