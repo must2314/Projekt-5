@@ -25,9 +25,26 @@ a{
     font-size: 16px;
 }
 
+#start{
+    width: 20%;
+    text-align: center;
+}
+
 #startknap{
     display: flex;
-    justify-content: center;        
+    justify-content: center;
+}
+
+.yellow{
+    color: #d8a55a;
+}
+.purple{
+    color: #aa81ac;
+}
+
+h1{
+    text-align: left;
+    color: #515f6d;
 }
 
 /* 700px eller under*/
@@ -35,6 +52,11 @@ a{
     body{
         background-color: crimson;
 }
+    h1{
+        display: flex;
+        text-align: end;
+        justify-content: flex-end;
+    }
 }
  #canvas_container{
       width: 100%;
