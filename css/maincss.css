@@ -82,14 +82,18 @@ p{
     h1{
         text-align: right; 
         font-size: 30px;
-        margin: 0 30px 8% 30%;
+        margin: 0 20px 8% 30%;
     }
     h2{
         font-size: 15px;
-        margin: 0px 12% 8% 48px;
+        margin: 0px 12% 8% 97px;
     }
     p{
         font-size: 12px;
+        margin: 0 0 0 20px;
+    }
+    .logo{
+        margin: 0 0 0 20px;
     }
 }
  /*bevægelse i baggrunden*/
