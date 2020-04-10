@@ -29,16 +29,7 @@ a:hover{
     color: #ffffff;
     background-color: #a6bb75;
 }
-#start{
-    width: 20%;
-    text-align: center;
-    font-family: roboto mono;
-}
 
-#startknap{
-    display: flex;
-    justify-content: center;
-}
 .naeste{
     width: 20%;
     text-align: center;
@@ -62,16 +53,16 @@ a:hover{
 
 h1{
     color: #515f6d;
-	font-size: 60px;
+	font-size: 40px;
     font-family: roboto mono;
-    margin: 30px 25% 10% 97px;
+    margin: 30px 20% 5% 97px;
 }
 
 h2{
 	color: #515f6d;
 	font-size: 20px;
 	font-family: roboto mono;
-	 margin: 15px 12% 5% 48px;
+	 margin: 0px 12% 5% 48px;
 }
 
 p{
@@ -90,7 +81,14 @@ p{
     h1{
         text-align: right; 
         font-size: 30px;
-        margin: 0 30px 10% 30%;
+        margin: 0 30px 8% 30%;
+    }
+    h2{
+        font-size: 15px;
+        margin: 0px 12% 8% 48px;
+    }
+    p{
+        font-size: 12px;
     }
 }
  /*bevægelse i baggrunden*/
