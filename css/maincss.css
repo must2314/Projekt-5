@@ -64,6 +64,18 @@ h1{
     margin: 30px 25% 10% 97px;
 }
 
+h2{
+	color: #515f6d;
+	font-size: 20px;
+}
+
+p{
+	color: #515f6d;
+	font-size: 15px;
+	font-family: roboto mono;
+}
+
+
 /* 700px eller under*/
 @media only screen and (max-width: 700px){
     body{
