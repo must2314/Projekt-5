@@ -56,6 +56,9 @@ a:hover{
 .purple{
     color: #aa81ac;
 }
+.green {
+	color: #a6bb75;
+}
 
 h1{
     color: #515f6d;
@@ -72,7 +75,7 @@ h2{
 p{
 	color: #515f6d;
 	font-size: 15px;
-	font-family: roboto mono;
+	
 }
 
 
