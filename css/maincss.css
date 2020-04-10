@@ -51,7 +51,7 @@ h1{
     color: #515f6d;
 	font-size: 60px;
     font-family: roboto mono;
-    margin: 30px 25% 10% 0;
+    margin: 30px 25% 10% 97px;
 }
 
 /* 700px eller under*/
@@ -62,7 +62,7 @@ h1{
     h1{
         text-align: right; 
         font-size: 30px;
-        margin: 0 0 10% 30%;
+        margin: 0 30px 10% 30%;
     }
 }
  /*bevægelse i baggrunden*/
