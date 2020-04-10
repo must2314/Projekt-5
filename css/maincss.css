@@ -62,13 +62,14 @@ h2{
 	color: #515f6d;
 	font-size: 20px;
 	font-family: roboto mono;
-	 margin: 0px 12% 5% 48px;
+	 margin: 0px 12% 5% 97px;
 }
 
 p{
 	color: #515f6d;
 	font-size: 15px;
-	font-family: roboto mono;
+    font-family: roboto mono;
+    margin: 0 0 0 97px;
 	
 }
 
