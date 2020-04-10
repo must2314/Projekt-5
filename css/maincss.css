@@ -39,6 +39,16 @@ a:hover{
     display: flex;
     justify-content: center;
 }
+.naeste{
+    width: 20%;
+    text-align: center;
+    font-family: roboto mono;
+}
+
+.naesteknap{
+    display: flex;
+    justify-content: center;
+}
 
 .yellow{
     color: #d8a55a;
