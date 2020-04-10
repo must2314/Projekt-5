@@ -20,8 +20,8 @@ var background = new Background();
         ctx.clearRect(0, 0, cW, cH);
         // Start drawing here
         background.render();
-        ctx.fillStyle = "orange";
-        ctx.fillRect(100,100,50,50);
+        ctx.fillStyle = "purple";
+        ctx.fillRect(5,5,2,2);
         // End drawing here
         ctx.restore();
     }

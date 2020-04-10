@@ -67,11 +67,13 @@ h1{
 }
  /*bevægelse i baggrunden*/
  #canvas_container{
-      width: 90%;
-      margin-left:500px;
+      width: 100%;
+      margin-right:50px; /*den lille orange box, ligge udenfor skærm*/
       position: absolute;
+	  top: 400px;
+	 
     }
     #my_canvas{
      display: flex;
-     float: right;
+     float: left;
     }
