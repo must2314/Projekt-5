@@ -13,9 +13,8 @@ body{
 .logo {
     width: 97px;
     height: 54px;
-    top: 30px;
-    left: 20px;
     padding-top: 30px;
+    margin-left: 20px;
 }
 a{
     padding: 15px;
@@ -90,9 +89,6 @@ p{
     }
     p{
         font-size: 12px;
-        margin: 0 0 0 20px;
-    }
-    .logo{
         margin: 0 0 0 20px;
     }
 }
