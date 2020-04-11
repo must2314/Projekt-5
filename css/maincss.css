@@ -6,8 +6,13 @@ body{
     background-repeat: no-repeat;
     background-image: url(https://www.houseofcode.io/wp-content/themes/hoc/library/img/geil.png);
     position: relative; 
-    overflow: hidden;
     background-color: #ffffff;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .logo {
