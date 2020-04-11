@@ -95,7 +95,7 @@ p{
  /*bevægelse i baggrunden*/
  #canvas_container{
       width: 100%;
-      margin-right:50px; /*den lille orange box, ligge udenfor skærm*/
+      margin-right:50px; /*den lilla box, ligge udenfor skærm*/
       position: absolute;
 	  top: 400px;
 	 
