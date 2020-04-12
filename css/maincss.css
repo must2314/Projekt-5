@@ -78,11 +78,6 @@ p{
 }
 
 
-* {
-  box-sizing: border-box;
-}
-
-
 /*_________________Alert pop up_________________*/
 /* The alert message box */
 .alert {
@@ -111,6 +106,14 @@ p{
 
 
 /* _______________form wizard________________ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+}
 
 #regForm {
   background-color: #ffffff;
@@ -182,14 +185,3 @@ input.invalid {
     }
 }
  /*bevægelse i baggrunden*/
- #canvas_container{
-      width: 100%;
-      margin-right:50px; /*den lilla box, ligge udenfor skærm*/
-      position: absolute;
-	  top: 400px;
-
-    }
-    #my_canvas{
-     display: flex;
-     float: left;
-    }
