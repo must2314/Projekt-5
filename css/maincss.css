@@ -6,16 +6,20 @@ body{
     background-repeat: no-repeat;
     background-image: url(https://www.houseofcode.io/wp-content/themes/hoc/library/img/geil.png);
     position: relative; 
-    overflow: hidden;
     background-color: #ffffff;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .logo {
     width: 97px;
     height: 54px;
-    top: 30px;
-    left: 20px;
     padding-top: 30px;
+    margin-left: 20px;
 }
 a{
     padding: 15px;
@@ -55,21 +59,21 @@ h1{
     color: #515f6d;
 	font-size: 40px;
     font-family: roboto mono;
-    margin: 30px 20% 5% 97px;
+    margin: 3% 20% 4% 117px;
 }
 
 h2{
 	color: #515f6d;
 	font-size: 20px;
 	font-family: roboto mono;
-	 margin: 0px 12% 5% 97px;
+	 margin: 0px 12% 4% 117px;
 }
 
 p{
 	color: #515f6d;
 	font-size: 15px;
     font-family: roboto mono;
-    margin: 0 0 0 97px;
+    margin: 0 0 0 117px;
 	
 }
 
@@ -92,14 +96,11 @@ p{
         font-size: 12px;
         margin: 0 0 0 20px;
     }
-    .logo{
-        margin: 0 0 0 20px;
-    }
 }
  /*bevægelse i baggrunden*/
  #canvas_container{
       width: 100%;
-      margin-right:50px; /*den lille orange box, ligge udenfor skærm*/
+      margin-right:50px; /*den lilla box, ligge udenfor skærm*/
       position: absolute;
 	  top: 400px;
 	 
@@ -108,3 +109,4 @@ p{
      display: flex;
      float: left;
     }
+

@@ -21,7 +21,7 @@ var background = new Background();
         // Start drawing here
         background.render();
         ctx.fillStyle = "purple";
-        ctx.fillRect(5,5,2,2);
+        ctx.fillRect(5,5,2,2); //firkant er så lille man ikke kan se de// 
         // End drawing here
         ctx.restore();
     }
