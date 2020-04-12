@@ -83,7 +83,7 @@ p{
 }
 
 
-/*-------Alert pop up------*/
+/*_________________Alert pop up_________________*/
 /* The alert message box */
 .alert {
   padding: 20px;
@@ -110,7 +110,7 @@ p{
 }
 
 
-/* _____form wizard_____ */
+/* _______________form wizard________________ */
 
 #regForm {
   background-color: #ffffff;
@@ -162,7 +162,7 @@ input.invalid {
 }
 
 
-/* 700px eller under*/
+/*_____________ 700px eller under _______________*/
 @media only screen and (max-width: 700px){
     body{
         background-color: crimson;
