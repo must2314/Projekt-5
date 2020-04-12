@@ -29,7 +29,7 @@ var background = new Background();
 }
 window.addEventListener('load', function(event) {
     initCanvas();
-});
+}); 
 
 //-------- Alert-pop up ---------//
 
