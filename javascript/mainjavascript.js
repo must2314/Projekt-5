@@ -33,9 +33,6 @@ window.addEventListener('load', function(event) {
 
 //-------- Alert-pop up ---------//
 
-
-
-
 // Get all elements with class="closebtn"
 var close = document.getElementsByClassName("closebtn");
 var i;
