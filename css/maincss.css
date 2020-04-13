@@ -189,6 +189,16 @@ input.invalid {
     }
 }
 
+.info{ 
+  padding: 15px;
+  border: 2px solid #aa81ac;
+  border-radius: 50px 50px 50px 50px;
+  color: #aa81ac;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: transparent;
+} 
 #nextBtn{
   padding: 15px;
   border: 3px solid #a6bb75;
@@ -216,4 +226,5 @@ input.invalid {
     color: #ffffff;
     background-color: #6696ac;
     cursor: pointer;
- /*bevægelse i baggrunden*/
+
+
