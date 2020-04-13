@@ -230,3 +230,14 @@ p{
     background-color: #6696ac;
     cursor: pointer;
 }
+
+.knapbox{
+  overflow: auto;
+}
+.knapbox2{
+  float: right;
+}
+.breadcrumbs{
+  text-align: center;
+  margin-top: 40px;
+}
