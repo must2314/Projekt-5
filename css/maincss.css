@@ -192,13 +192,15 @@ input.invalid {
 .info{ 
   padding: 15px;
   border: 1px solid #aa81ac;
-  border-radius: 50px 50px 50px 50px;
+  border-radius: 50%;
   color: #aa81ac;
   font-weight: bold;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 15px;
   background-color: transparent;
-  margin-top: -20px;
+  margin-right: 660px;
+ width: 50px;
+
 } 
 .info:hover{
   color: #ffffff;
