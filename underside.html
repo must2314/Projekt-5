@@ -12,19 +12,75 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>House of Code</title>
 
+<body>
 
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  <center><strong>Velkommen til!</strong> <br>Følg de næste trin og tilvælg hvilke features din app skal indeholde. Uddyb gerne dine ønsker. Klik på linket "Uddyb" for at få en detaljeret forklaring hvis der er noget du skulle være i tvivl om.<br> God fornøjelse!</center>
+</div>
+
+
+  <main>
 	<img class="logo" src="https://www.houseofcode.io/wp-content/themes/hoc/library/img/svg/hoc-icon-color.svg" alt="House of codes logo">
  <h1> Kom  godt <span class="yellow">i gang</span> { </h1>
  <h2> Vi mener at det bedste <span class="yellow">resultat</span> opnås med god
 	 <span class="green">kommunikation</span>, <br>
 	 dine <span class="purple">ønsker</span> og vores drivkraft!<br>
 	 Følg de næste trin, og fortæl os om dine ønsker og behov.
- </h2>
-	<h2> } </h2>
+ <br> <br> } </h2>
 
-	 <div class="naesteknap">
-            <a class="naeste" href="checkbox.html">Næste</a>
-	 </div>
 
+  <!-- form wizard -->
+
+  <form id="regForm" action="">
+
+  <h1>Udfyld:</h1>
+
+  <!-- One "tab" for each step in the form: -->
+  <div class="tab">Fulde navn:
+    <p><input placeholder="Fornavn..." oninput="this.className = ''"></p>
+    <p><input placeholder="Efternavn..." oninput="this.className = ''"></p>
+  </div>
+
+  <div class="tab">Kontakt info:
+    <p><input placeholder="E-mail..." oninput="this.className = ''"></p>
+    <p><input placeholder="Mobilnr..." oninput="this.className = ''"></p>
+  </div>
+
+  <div class="tab">Lidt om din virksomhed:
+    <p><input placeholder="Navn på virksomhed..." oninput="this.className = ''"></p>
+    <p><input placeholder="Ønsket målgruppe..." oninput="this.className = ''"></p>
+  </div>
+
+  <div class="tab">Krav til app:
+    <p><input placeholder="Internt/externt brug..." oninput="this.className = ''"></p>
+    <p><input placeholder="Web/smartphone..." oninput="this.className = ''"></p>
+    <p><input placeholder="Android/iphone..." oninput="this.className = ''"></p>
+  </div>
+
+  <div class="tab">Andre ønsker til app:
+    <p><input placeholder="Beskriv andre ønsker..." oninput="this.className = ''"></p>
+  </div>
+
+  <div class="knapbox">
+    <div class="knapbox2">
+  	 <button type="button" class="info" href="">i</button>
+      <button type="button" id="prevBtn" onclick="nextPrev(-1)">Tilbage</button>
+      <button type="button" id="nextBtn" onclick="nextPrev(1)">Næste</button>
+    </div>
+  </div>
+
+
+  <!-- Circles which indicates the steps of the form: -->
+  <div class="breadcrumbs">
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+  </div>
+
+  </form>
+          </main>
 </body>
 </html>
