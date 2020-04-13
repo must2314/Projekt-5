@@ -183,24 +183,26 @@ p{
   margin: 0 0 0 20px;
 }
 }
-
-.info{
-  padding: 5px;
+.i{
+  padding: -10px;
   border: 1px solid #aa81ac;
   border-radius: 50%;
+  width: 25px;
+  height: 25px;
   color: #aa81ac;
   font-weight: bold;
   text-decoration: none;
   font-size: 10px;
   background-color: transparent;
-  width: 50px;
-
+  margin-left:95%;
+ 
 } 
-.info:hover{
+.i:hover{
   color: #ffffff;
   background-color: #aa81ac;
-  cursor: pointer;
+  cursor: help;
 }
+
 #nextBtn{
   margin-left: 2%;
   padding: 15px;
