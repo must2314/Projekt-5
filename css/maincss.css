@@ -142,6 +142,8 @@ input.invalid {
 /* Hide all steps by default: */
 .tab {
   display: none;
+  font-family: roboto mono;
+  
 }
 
 /* Make circles that indicate the steps of the form: */
