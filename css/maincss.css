@@ -123,7 +123,7 @@ body {
 input {
   padding: 10px;
   width: 100%;
-  margin: 2%;
+  margin: 2% 2% 2% 0%;
   font-size: 17px;
   font-family: roboto mono;
   border: 1px solid #aaaaaa;
@@ -184,18 +184,16 @@ p{
 }
 }
 
-.info{ 
+.info{
   padding: 15px;
-  border: 1px solid #aa81ac;
+  border: 3px solid #aa81ac;
   border-radius: 50%;
   color: #aa81ac;
   font-weight: bold;
   text-decoration: none;
   font-size: 15px;
   background-color: transparent;
-  margin-right: 645px;
   width: 50px;
-
 } 
 .info:hover{
   color: #ffffff;
@@ -203,6 +201,7 @@ p{
   cursor: pointer;
 }
 #nextBtn{
+  margin-left: 2%;
   padding: 15px;
   border: 3px solid #a6bb75;
   color: #a6bb75;
@@ -217,6 +216,7 @@ p{
   cursor: pointer;
 }
 #prevBtn{
+  margin-left: 2%;
     padding: 15px;
     border: 3px solid #6696ac;
     color: #6696ac;
@@ -235,7 +235,8 @@ p{
   overflow: auto;
 }
 .knapbox2{
-  float: right;
+  display: flex;
+  justify-content: flex-end;
 }
 .breadcrumbs{
   text-align: center;
