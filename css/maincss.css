@@ -15,12 +15,6 @@ body{
     display: none;
 }
 
-.logo {
-    width: 97px;
-    height: 54px;
-    padding-top: 30px;
-    margin-left: 20px;
-}
 a{
     padding: 15px;
     border: 3px solid #a6bb75;
@@ -171,22 +165,22 @@ input.invalid {
 
 /*_____________ 700px eller under _______________*/
 @media only screen and (max-width: 700px){
-    body{
-        background-color: crimson;
+body{
+  background-color: #ffffff;
 }
-    h1{
-        text-align: right;
-        font-size: 30px;
-        margin: 0 20px 8% 30%;
-    }
-    h2{
-        font-size: 15px;
-        margin: 0px 12% 8% 97px;
-    }
-    p{
-        font-size: 12px;
-        margin: 0 0 0 20px;
-    }
+h1{
+  text-align: right;
+  font-size: 30px;
+  margin: 0 20px 8% 30%;
+}
+h2{
+  font-size: 15px;
+  margin: 0px 12% 8% 97px;
+}
+p{
+  font-size: 12px;
+  margin: 0 0 0 20px;
+}
 }
 
 .info{ 
@@ -234,5 +228,4 @@ input.invalid {
     color: #ffffff;
     background-color: #6696ac;
     cursor: pointer;
-
-
+}
