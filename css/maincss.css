@@ -217,18 +217,18 @@ p{
   border-radius: 50%;
   width: 25px;
   height: 25px;
-  color: #aa81ac;
+  color: #ffffff;
   font-weight: bold;
   text-decoration: none;
-  font-size: 10px;
-  background-color: transparent;
+  font-size: 16px;
+  background-color: #aa81ac;
   margin-left:95%;
 
 }
 
 .i:hover{
-  color: #ffffff;
-  background-color: #aa81ac;
+  color: #aa81ac;
+  background-color:#F0D8F0;
   cursor: help;
 }
 
