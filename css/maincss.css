@@ -285,6 +285,8 @@ p{
       height: inherit;
       margin:0;
       position: absolute;
+	  z-index: -1;
+	  opacity: 50%;
     }
     #my_canvas{
      display: block;
