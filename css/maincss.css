@@ -279,3 +279,14 @@ p{
   text-align: center;
   margin-top: 40px;
 }
+ #canvas_container{
+      width: 100%;
+      height: inherit;
+      margin:0;
+      position: absolute;
+    }
+    #my_canvas{
+     display: block;
+     float: right;
+    }
+
