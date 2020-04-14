@@ -283,13 +283,15 @@ p{
  #canvas_container{
       width: 100%;
       height: inherit;
-      margin:0;
+      margin-top: 50px;
       position: absolute;
 	  z-index: -1;
-	  opacity: 50%;
+	  opacity: 25%;
+	  
     }
     #my_canvas{
-     display: block;
+     display: inline;
      float: right;
+	 
     }
 
