@@ -1,5 +1,5 @@
 var bg = new Image();
-bg.src = "img/konfetti.png";
+bg.src = "img/streger.png";
 function initCanvas(){
     var ctx = document.getElementById('my_canvas').getContext('2d');
     var cW = ctx.canvas.width, cH = ctx.canvas.height;
