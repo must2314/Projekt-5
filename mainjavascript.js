@@ -8,6 +8,7 @@ function initCanvas(){
         this.x = 0, this.y = 0, this.w = bg.width, this.h = bg.height;
         this.render = function(){
             ctx.drawImage(bg, this.x--, 0);
+			
             if(this.x <= -499){
                 this.x = 0;
             }
