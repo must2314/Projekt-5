@@ -128,6 +128,9 @@ function fixStepIndicator(n) {
   x[n].className += " active";
 }
 
+//________InfoBox________//
+
+
 // gets the InfoBox
 var InfoBox = document.getElementById("infobox");
 // gets the open button
