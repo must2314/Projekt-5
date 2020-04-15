@@ -127,3 +127,33 @@ function fixStepIndicator(n) {
   //... and adds the "active" class to the current step:
   x[n].className += " active";
 }
+
+// gets the InfoBox
+var InfoBox = document.getElementById("infobox");
+// gets the open button
+var Info = document.getElementById("i");
+// gets the close button
+var Close = document.getElementsByClassName("close");
+
+// listens for open click
+Info.addEventListener("click",OpenInfo);
+// listen for close click
+Close.addEventListener("click",CloseInfo);
+//listen for outside click
+window.addEventListener("click",ClickOutside);
+
+// function to open infobox
+function OpenInfo() {
+  InfoBox.style.display = "block";
+}
+// function to close infobox
+function CloseInfo() {
+  InfoBox.style.display = "none";
+}
+
+// Close If Outside Click
+function ClickOutside(e) {
+  if (event.target == InfoBox) {
+    InfoBox.style.display = 'none';
+  }
+  }
