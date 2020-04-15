@@ -71,8 +71,9 @@ function showTab(n) {
   } else {
     document.getElementById("prevBtn").style.display = "inline";
   }
-  if (n == (x.length - 1)) {
-    document.getElementById("nextBtn").innerHTML = "Send ønsker";
+  if (n == (x.length -1 )) {
+    document.getElementById("nextBtn").innerHTML = "C:/Users/musta/Desktop/feedback.html";
+    document.getElementById("nextBtn").href = "C:/Users/musta/Desktop/feedback.html";
   } else {
     document.getElementById("nextBtn").innerHTML = "Næste";
   }
