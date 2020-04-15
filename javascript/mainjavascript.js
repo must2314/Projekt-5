@@ -69,7 +69,7 @@ function showTab(n) {
     document.getElementById("prevBtn").style.display = "inline";
   }
   if (n == (x.length - 1)) {
-    document.getElementById("nextBtn").innerHTML = "Send ønsker";
+    document.getElementById("nextBtn").innerHTML = "Send Ønsker";
   } else {
     document.getElementById("nextBtn").innerHTML = "Næste";
   }
