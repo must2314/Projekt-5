@@ -42,7 +42,14 @@
   <h1>Udfyld:</h1>
 
 
-  <button type="button" class="i" onclick="showinfo()">i</button>
+    <button type="button" id="i" class="Info" onclick="showinfo()">i</button>
+
+  <div id="infobox" class="InfoBox">
+    <div class="InfoContent">
+    <span class="Close" id="myinfo" onclick="this.parentElement.style.display='none';">&times;</span>
+    <center></span><strong>Dit fulde navn</strong> <br><br> Vi har brug for dit fulde navn før du kan gå videre.</center>
+    </div>
+  </div>
 
   <div id="infobox" class="InfoBox">
     <div class="info-content">
