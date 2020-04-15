@@ -53,12 +53,6 @@ for (i = 0; i < close.length; i++) {
   }
 }
 
-//-------------info button----------------//
-
-
-
-
-//--------------Alert-pop up when finished---------------//
 
 
 
