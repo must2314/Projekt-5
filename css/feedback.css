@@ -66,11 +66,29 @@ p{
   text-decoration: none;
   font-size: 16px;
   background-color: transparent;
+  font-family: roboto mono;
 }
 
 #feedback-btn:hover{
   color: #ffffff;
   background-color: #a6bb75;
+  cursor: pointer;
+}
+#afslut-btn{
+  margin-left: 2%;
+  padding: 15px;
+  border: 3px solid #6393a3;
+  color: #6393a3;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: transparent;
+  font-family: roboto mono;
+}
+
+#afslut-btn:hover{
+  color: #ffffff;
+  background-color: #6393a3;
   cursor: pointer;
 }
 
